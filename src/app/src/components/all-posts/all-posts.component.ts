@@ -1,3 +1,4 @@
+import { PostService } from './../../../post.service';
 import { Post } from './../../../post';
 import { Component, OnInit } from '@angular/core';
 
@@ -12,10 +13,8 @@ export class AllPostsComponent implements OnInit {
     
   ];
 
-  constructor() { }
+  constructor(private postService: PostService) { }
 
-  ngOnInit(): void {
-    
-  }
+  ngOnInit(): void { }
 
 }
