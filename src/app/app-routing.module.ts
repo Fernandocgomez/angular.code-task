@@ -1,4 +1,4 @@
-import { WelcomeMsgComponent } from './welcome-msg/welcome-msg.component';
+import { WelcomeMsgComponent } from './src/components/welcome-msg/welcome-msg.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
