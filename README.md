@@ -6,19 +6,23 @@
 - I have built.
     - the UI 
     - the interface Post
+- API end point "https://jsonplaceholder.typicode.com"
+    - All posts GET "/posts"
+    - Create a new post POST "/posts"
+    - API documentation https://jsonplaceholder.typicode.com/guide/
 
 ## Tasks
-- Create 2 routes
-    - /all-posts (AllPostComponent)
+1. Create 2 routes
+    - /all-posts (AllPostsComponent)
         - This route should render a list of post. Make sure to use the lifecycle methods.
     - /create-post (CreatePostComponent)
         - This route should render a form to create a new post. 
-- Create a services
+2. Create a services
     - PostService
         - Should have a method called getAllPosts() that returns an Observable of type Post<Array>.
         - Should have a method called createPost(payload: Post) that returns an Observable of type Post.
-- AllPostComponent
-    - Render a list of post when the component gets initialized.
-- CreatePostComponent
-    - Render a form to create new posts.
+3. AllPostsComponent
+    - Render a list of posts when the component gets initialized.
+4. CreatePostsComponent
+    - Render a form to create new post.
     - After we create a new post, the post should be render right below the form.
