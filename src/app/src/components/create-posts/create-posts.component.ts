@@ -1,3 +1,4 @@
+import { PostService } from './../../../post.service';
 import { Post } from './../../../post';
 import { Component, OnInit } from '@angular/core';
 import {NgForm} from '@angular/forms';
@@ -11,7 +12,7 @@ export class CreatePostsComponent implements OnInit {
 
   public newPosts: Array<Post> = [];
 
-  constructor() { }
+  constructor(private postService: PostService) { }
 
   ngOnInit(): void {
   }

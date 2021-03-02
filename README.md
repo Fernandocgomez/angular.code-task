@@ -18,9 +18,8 @@
         - This route should render a list of post. Make sure to use the lifecycle methods.
     - /create-post (CreatePostComponent)
         - This route should render a form to create a new post. 
-        - After the post is created, it should be display below the form. 
 2. AllPostsComponent
     - Render a list of posts when the component gets initialized.
-3. CreatePostsComponent
+3. CreatePostsComponent 
     - Render a form to create new post.
     - After we create a new post, the post should be render right below the form.
